@@ -4,7 +4,8 @@ import 'package:flutter/src/widgets/placeholder.dart';
 
 // Creation of AnimatedConatiner and using buttons 
 
-void main(List<String> args) {
+void main(List<String> args) 
+{
 runApp(Sandbox());  
 }
 
@@ -81,7 +82,8 @@ class _SandboxState extends State<Sandbox>
 
            AnimatedOpacity(
            opacity: _opacity,
-           child: Text('Hide Me',style: TextStyle(color:Colors.white),),
+           child: Text('Hide Me',
+           style: TextStyle(color:Colors.white),),
            duration: Duration(seconds: 2))
             
           ],
