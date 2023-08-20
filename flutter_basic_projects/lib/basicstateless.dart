@@ -23,7 +23,7 @@ class signUp extends StatelessWidget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-
+          
       // 1 - App bar
       appBar: AppBar(
         title: const Text('WELCOME TO AMAZON'),

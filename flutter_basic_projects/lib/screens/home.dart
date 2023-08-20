@@ -167,7 +167,7 @@ void _runFilter(String enteredKeyword)
               width: 40,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(100),
-                child: Image.asset('images/music.jpg'),
+                child: Image.asset('assets/images/music.jpeg'),
               ),
             )
           ],

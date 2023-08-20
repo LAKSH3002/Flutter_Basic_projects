@@ -57,9 +57,9 @@ class _MyStartScreenState extends State<MyStartScreen> {
               // text
               const Text('Welcome To',style: TextStyle(fontSize: 42,fontWeight: FontWeight.bold,color: Color.fromARGB(255, 72, 5, 5),fontStyle: FontStyle.italic),),
             
-              Image.asset('images/bookmyshow-logo-vector.png',height: 150),
+              Image.asset('assets/images/book-my-show-logo.png',height: 150),
 
-              const SizedBox(height: 20),
+              const SizedBox(height: 22),
               
               // button 1
               ElevatedButton(style: ElevatedButton.styleFrom(
@@ -258,16 +258,16 @@ class _MyhomepageState extends State<Myhomepage> {
                 isclick = !isclick;
               });
             },
-            child:isclick?Image.asset('images/music.jpg',width:320,height:170)
-            :Image.asset('images/arijit.jpeg',width: 350,height: 170)),
+            child:isclick?Image.asset('assets/images/music.jpeg',width:320,height:170)
+            :Image.asset('assets/images/arijit.jpeg',width: 350,height: 170)),
 
-           const  SizedBox(height:2),
+           const  SizedBox(height:8),
 
-           Image.asset('images/cskvsgt_finals.jpeg',width:800,height:170),
+           Image.asset('assets/images/cskvsgt.jpeg',width:800,height:170),
 
-           const SizedBox(height: 2),
+           const SizedBox(height: 8),
 
-           Image.asset('images/guardians.jpg',width:305),
+           Image.asset('assets/images/guardians.jpeg',width:305),
 
            const SizedBox(height: 50)
           ],

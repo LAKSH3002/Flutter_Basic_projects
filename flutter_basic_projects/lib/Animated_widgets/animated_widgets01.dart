@@ -40,3 +40,12 @@ class _AnimatedWidget01State extends State<AnimatedWidget01>
     );
   }
 }
+
+/*
+Projects working well:
+1) Basic stateless 
+2) Basic stateless 2
+3) Book my show
+4) To Do App
+5) Calculator
+*/
