@@ -17,7 +17,8 @@ class _Animatedwidget04State extends State<Animatedwidget04>
   bool _bool = false;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) 
+  {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
