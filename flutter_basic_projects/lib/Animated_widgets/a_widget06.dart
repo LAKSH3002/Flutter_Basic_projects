@@ -82,4 +82,8 @@ class _Awidget06State extends State<Awidget06> with SingleTickerProviderStateMix
 1 - AnimatedModalBarrier
 2 - AnimatedCrossFade
 3 - AnimatedList
+4 - AnimatedPadding
+5 - AnimatedPhysicalModel
+6 - AnimatedPositioned
+7 - AnimatedSwitcher
 */
